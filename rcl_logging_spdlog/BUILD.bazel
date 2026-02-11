@@ -46,7 +46,6 @@ cc_test(
     ],
     local_defines = ["ROS_PACKAGE_NAME=\\\"rcl_logging_spdlog\\\""],
     timeout = "short",
-    tags = ["exclusive"],
 )
 
 cc_test(
