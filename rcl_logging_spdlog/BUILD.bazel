@@ -39,6 +39,7 @@ cc_test(
     timeout = "short",
     srcs = ["test/benchmark/benchmark_logging_interface.cpp"],
     local_defines = ["ROS_PACKAGE_NAME=\\\"rcl_logging_spdlog\\\""],
+    tags = ["manual"],
     deps = [
         ":rcl_logging_spdlog",
         "@google_benchmark//:benchmark_main",
